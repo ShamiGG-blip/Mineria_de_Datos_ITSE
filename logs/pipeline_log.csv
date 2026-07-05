@@ -1,0 +1,10 @@
+Paso,Descripción,Filas,Nulos,Retención (%)
+00_carga_original,Carga del dataset original sin modificaciones,8160,753,100.0
+01_eliminar_duplicados_exactos,Se eliminan filas totalmente duplicadas,8034,753,98.46
+02_deduplicar_user_id,Se conserva el primer registro por user_id repetido,8000,753,98.04
+03_age_rango_y_mediana,"120 edades fuera de [12,100] imputadas con mediana (33)",8000,753,98.04
+04_watch_time_centinela_y_mediana,"80 valores inválidos (negativos o centinela 99999) + 193 nulos explícitos, imputados con mediana (757.4)",8000,560,98.04
+05_tickets_centinela_y_mediana,96 valores inválidos (negativos o códigos 99/150) imputados con mediana (1),8000,560,98.04
+06_normalizar_categoricas,"Se estandarizan subscription_plan, country y favorite_genre a categorías canónicas; no coincidencias -> 'Desconocido'",8000,320,98.04
+07_parsear_fechas,Fechas parseadas probando 3 formatos conocidos; no resueltas quedan como faltante (462 de 8000),8000,462,98.04
+08_guardado_final,Dataset procesado guardado en data/processed/,8000,462,98.04
