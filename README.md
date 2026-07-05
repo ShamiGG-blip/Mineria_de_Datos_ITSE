@@ -6,9 +6,9 @@ Proyecto Integrador de la materia Minería de Datos 1. Análisis reproducible so
 dataset de usuarios de una plataforma de streaming, desde la inspección inicial hasta
 las conclusiones, comunicado mediante una aplicación en Streamlit y un informe final.
 
-**Integrantes:** [Nombre Apellido 1] — [Nombre Apellido 2]
-**Comisión:** [completar]
-**Fecha:** Julio 2026
+**Integrantes:** [Gonzalez Shamira] — [Serrano Yonathan]
+**Comisión:** [Turno mañana-Nueva Esperanza]
+**Fecha:** 4 de Julio 2026
 
 ## Objetivo del proyecto
 
