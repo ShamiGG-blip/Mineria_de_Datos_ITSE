@@ -82,7 +82,7 @@ La aplicación pública en Streamlit (`app/`) comunica los resultados para públ
 general: descripción y calidad del dataset, 5 visualizaciones de EDA interpretadas,
 resultados de PCA y conclusiones. No reemplaza la evidencia técnica de los notebooks.
 
-**Enlace público:** [completar enlace de Streamlit Cloud]
+**Enlace público:** https://mineriadedatositse-kpavbjwelfwfntpmu4gkwf.streamlit.app/
 
 ## Cómo ejecutar localmente
 
